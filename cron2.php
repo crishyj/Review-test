@@ -1,6 +1,6 @@
 <?php
-
     echo '---begin cron job2';
+    
     require_once 'database.php';        
     $db1->where('SMS_Smileyrating', 0);        
     $externals = $db1->get('queue_calls', null, array('id', 'SMS_Smileyrating'));

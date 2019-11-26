@@ -2,8 +2,8 @@
 require_once 'database.php';
 if (isset($_POST['id'])) {
    
-    $review_id= $_POST['id'];
-    $db->where('review_id', $review_id);
+    $id = $_POST['id'];
+    $db->where('id', $id);
     $row = $db->getOne('sms_logs', array('customer_country', 'brand_title', 'customer_phone'));
     $brand = $row['brand_title'];
     $country = $row['customer_country'];
@@ -15,7 +15,7 @@ if (isset($_POST['id'])) {
         'feedback_score' => $feedback_score,
         'feedback_text' => $feedback_text,
     );
-    $db->where('review_id', $review_id);
+    $db->where('id', $id);
     $db->update('sms_logs', $data);    
 
     $db1->where('caller_id', $customer_phone);

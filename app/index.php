@@ -22,7 +22,6 @@ if (isset($_POST['submit_type'])) {
             'must_send_reminder_2' => isset($_POST['must_send_reminder_2']) ? 'Yes' : 'No',
             'reminder_phone_2' => $_POST['reminder_phone_2'],
         );
-       
         $db->insert('brands', $data);
     }
     if ($_POST['submit_type'] == 'remove_brand') {

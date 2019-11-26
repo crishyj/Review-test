@@ -1,8 +1,8 @@
 <?php
 require_once 'MysqliDb.php';
 // $db = new MysqliDb('localhost', 'pallel29_lin', 'J]H?]h_&Vb3*', 'pallel29_smileyrating');
-$db = new MysqliDb('localhost', 'root', '', 'pallel29_smileyrating');
-$db1 = new MysqliDb('localhost', 'root', '', 'pallel29_c7nordiccall_dk');
+$db = new MysqliDb('localhost', 'pallel29_lin', 'J]H?]h_&Vb3*', 'pallel29_smileyrating');
+$db1 = new MysqliDb('localhost', 'pallel29_c7nord', '3f%H!e0l._hN', 'pallel29_c7nordiccall_dk');
 date_default_timezone_set('Europe/Copenhagen');
 define('GLOBAL_BRAND', '_Global');
 define('REVIEW_URL', 'http://smileyrating.dk/review.php?id=');
@@ -21,18 +21,38 @@ $feedback_title = array(
     'Sweden' => 'Leave Feedback(Sweden)',
     'Norway' => 'Leave Feedback(Norway)',
 );
-$feedback_titles = array(
+$feedback_titles1 = array(
     'Denmark' => 'Hvordan vil du bedømme den samtale, du netop har haft med [brand]',
     'Sweden' => 'Leave Feedback(Sweden)',
     'Norway' => 'Leave Feedback(Norway)',
 );
-$feedback_happy = array(
+$feedback_titles2 = array(
+    'Denmark' => 'title2 [brand]',
+    'Sweden' => 'Leave Feedback(Sweden)',
+    'Norway' => 'Leave Feedback(Norway)',
+);
+$feedback_titles3 = array(
+    'Denmark' => 'titl3 [brand]',
+    'Sweden' => 'Leave Feedback(Sweden)',
+    'Norway' => 'Leave Feedback(Norway)',
+);
+$feedback_happy1 = array(
     'Denmark' => '<center><strong>Det var en god oplevelse</strong><br>Imødekommende, professionel og venlig. Godt arbejde!1<center>',
     'Sweden' => '<center><strong>Det var en bra upplevelse</strong><br>välkomnande, professionella och vänliga. Bra jobb!<center>',
     'Norway' => '<center><strong>Det var en god opplevelse</strong><br>innbydende, profesjonell og vennlig. Bra jobb!<center>',
 );
-$feedback_sad = array(
-    'Denmark' => '<center><strong>Desværre, dårligt</strong><br>Samtalen levede desværre ikke op til mine forventninger.<center>',
+$feedback_happy2 = array(
+    'Denmark' => '<center><strong>Det var en god oplevelse</strong><br>Imødekommende, professionel og venlig. Godt arbejde!2<center>',
+    'Sweden' => '<center><strong>Det var en bra upplevelse</strong><br>välkomnande, professionella och vänliga. Bra jobb!<center>',
+    'Norway' => '<center><strong>Det var en god opplevelse</strong><br>innbydende, profesjonell og vennlig. Bra jobb!<center>',
+);
+$feedback_sad1 = array(
+    'Denmark' => '<center><strong>Desværre, dårligt</strong><br>Samtalen levede desværre ikke op til mine forventninger1.<center>',
+    'Sweden' => 'I am sad.(Sweden)',
+    'Norway' => 'I am sad.(Norway)',
+);
+$feedback_sad2 = array(
+    'Denmark' => '<center><strong>Desværre, dårligt</strong><br>Samtalen levede desværre ikke op til mine forventninger22.<center>',
     'Sweden' => 'I am sad.(Sweden)',
     'Norway' => 'I am sad.(Norway)',
 );
@@ -66,7 +86,6 @@ $feedback_duplicate = array(
     'Sweden' => 'You had left feedback already. (Sweden)',
     'Norway' => 'You had left feedback already. (Norway)',
 );
-
 
 function sendSMS($to, $msg, $from)
 {

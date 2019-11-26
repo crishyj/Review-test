@@ -61,3 +61,363 @@ Stack trace:
 #2 /home/pallel29/public_html/smileyrating.dk/cron.php(95): MysqliDb->get('sms_logs', NULL, Array)
 #3 {main}
   thrown in /home/pallel29/public_html/smileyrating.dk/MysqliDb.php on line 1986
+[25-Nov-2019 23:17:01 Europe/Copenhagen] PHP Fatal error:  Uncaught Exception: Connect Error 1045: Access denied for user 'root'@'localhost' (using password: NO) in /home/pallel29/public_html/smileyrating.dk/MysqliDb.php:316
+Stack trace:
+#0 /home/pallel29/public_html/smileyrating.dk/MysqliDb.php(405): MysqliDb->connect('default')
+#1 /home/pallel29/public_html/smileyrating.dk/MysqliDb.php(1968): MysqliDb->mysqli()
+#2 /home/pallel29/public_html/smileyrating.dk/MysqliDb.php(1574): MysqliDb->_prepareQuery()
+#3 /home/pallel29/public_html/smileyrating.dk/MysqliDb.php(724): MysqliDb->_buildQuery(NULL)
+#4 /home/pallel29/public_html/smileyrating.dk/cron.php(6): MysqliDb->get('sms_logs', NULL, Array)
+#5 {main}
+  thrown in /home/pallel29/public_html/smileyrating.dk/MysqliDb.php on line 316
+[25-Nov-2019 23:18:01 Europe/Copenhagen] PHP Fatal error:  Uncaught Exception: Connect Error 1045: Access denied for user 'root'@'localhost' (using password: NO) in /home/pallel29/public_html/smileyrating.dk/MysqliDb.php:316
+Stack trace:
+#0 /home/pallel29/public_html/smileyrating.dk/MysqliDb.php(405): MysqliDb->connect('default')
+#1 /home/pallel29/public_html/smileyrating.dk/MysqliDb.php(1968): MysqliDb->mysqli()
+#2 /home/pallel29/public_html/smileyrating.dk/MysqliDb.php(1574): MysqliDb->_prepareQuery()
+#3 /home/pallel29/public_html/smileyrating.dk/MysqliDb.php(724): MysqliDb->_buildQuery(NULL)
+#4 /home/pallel29/public_html/smileyrating.dk/cron.php(6): MysqliDb->get('sms_logs', NULL, Array)
+#5 {main}
+  thrown in /home/pallel29/public_html/smileyrating.dk/MysqliDb.php on line 316
+[25-Nov-2019 23:18:22 Europe/Copenhagen] PHP Fatal error:  Uncaught Exception: Connect Error 1045: Access denied for user 'root'@'localhost' (using password: NO) in /home/pallel29/public_html/smileyrating.dk/MysqliDb.php:316
+Stack trace:
+#0 /home/pallel29/public_html/smileyrating.dk/MysqliDb.php(405): MysqliDb->connect('default')
+#1 /home/pallel29/public_html/smileyrating.dk/MysqliDb.php(1968): MysqliDb->mysqli()
+#2 /home/pallel29/public_html/smileyrating.dk/MysqliDb.php(1574): MysqliDb->_prepareQuery()
+#3 /home/pallel29/public_html/smileyrating.dk/MysqliDb.php(724): MysqliDb->_buildQuery(1)
+#4 /home/pallel29/public_html/smileyrating.dk/MysqliDb.php(750): MysqliDb->get('sms_logs', 1, Array)
+#5 /home/pallel29/public_html/smileyrating.dk/review.php(40): MysqliDb->getOne('sms_logs', Array)
+#6 {main}
+  thrown in /home/pallel29/public_html/smileyrating.dk/MysqliDb.php on line 316
+[25-Nov-2019 23:19:01 Europe/Copenhagen] PHP Fatal error:  Uncaught Exception: Connect Error 1045: Access denied for user 'root'@'localhost' (using password: NO) in /home/pallel29/public_html/smileyrating.dk/MysqliDb.php:316
+Stack trace:
+#0 /home/pallel29/public_html/smileyrating.dk/MysqliDb.php(405): MysqliDb->connect('default')
+#1 /home/pallel29/public_html/smileyrating.dk/MysqliDb.php(1968): MysqliDb->mysqli()
+#2 /home/pallel29/public_html/smileyrating.dk/MysqliDb.php(1574): MysqliDb->_prepareQuery()
+#3 /home/pallel29/public_html/smileyrating.dk/MysqliDb.php(724): MysqliDb->_buildQuery(NULL)
+#4 /home/pallel29/public_html/smileyrating.dk/cron.php(6): MysqliDb->get('sms_logs', NULL, Array)
+#5 {main}
+  thrown in /home/pallel29/public_html/smileyrating.dk/MysqliDb.php on line 316
+[25-Nov-2019 23:20:01 Europe/Copenhagen] PHP Fatal error:  Uncaught Exception: Connect Error 1045: Access denied for user 'root'@'localhost' (using password: NO) in /home/pallel29/public_html/smileyrating.dk/MysqliDb.php:316
+Stack trace:
+#0 /home/pallel29/public_html/smileyrating.dk/MysqliDb.php(405): MysqliDb->connect('default')
+#1 /home/pallel29/public_html/smileyrating.dk/MysqliDb.php(1968): MysqliDb->mysqli()
+#2 /home/pallel29/public_html/smileyrating.dk/MysqliDb.php(1574): MysqliDb->_prepareQuery()
+#3 /home/pallel29/public_html/smileyrating.dk/MysqliDb.php(724): MysqliDb->_buildQuery(NULL)
+#4 /home/pallel29/public_html/smileyrating.dk/cron.php(6): MysqliDb->get('sms_logs', NULL, Array)
+#5 {main}
+  thrown in /home/pallel29/public_html/smileyrating.dk/MysqliDb.php on line 316
+[25-Nov-2019 23:21:02 Europe/Copenhagen] PHP Fatal error:  Uncaught Exception: Connect Error 1045: Access denied for user 'root'@'localhost' (using password: NO) in /home/pallel29/public_html/smileyrating.dk/MysqliDb.php:316
+Stack trace:
+#0 /home/pallel29/public_html/smileyrating.dk/MysqliDb.php(405): MysqliDb->connect('default')
+#1 /home/pallel29/public_html/smileyrating.dk/MysqliDb.php(1968): MysqliDb->mysqli()
+#2 /home/pallel29/public_html/smileyrating.dk/MysqliDb.php(1574): MysqliDb->_prepareQuery()
+#3 /home/pallel29/public_html/smileyrating.dk/MysqliDb.php(724): MysqliDb->_buildQuery(NULL)
+#4 /home/pallel29/public_html/smileyrating.dk/cron.php(6): MysqliDb->get('sms_logs', NULL, Array)
+#5 {main}
+  thrown in /home/pallel29/public_html/smileyrating.dk/MysqliDb.php on line 316
+[25-Nov-2019 17:37:37 CST6CDT] PHP Fatal error:  Uncaught Error: Call to a member function where() on null in /home/pallel29/public_html/smileyrating.dk/cron1.php:3
+Stack trace:
+#0 {main}
+  thrown in /home/pallel29/public_html/smileyrating.dk/cron1.php on line 3
+[25-Nov-2019 19:06:43 CST6CDT] PHP Parse error:  syntax error, unexpected '.' in /home/pallel29/public_html/smileyrating.dk/cron1.php on line 22
+[26-Nov-2019 15:49:48 Europe/Copenhagen] PHP Fatal error:  Uncaught Exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'WHERE  customer_phone = ?' at line 1 query: INSERT  INTO sms_logs (`id`, `brand_title`, `customer_phone`, `time_register`, `NC_caller_id`, `NC_agent`, `NC_queue_name2`, `NC_call_time`)  VALUES (?, ?, ?, ?, ?, ?, ?, ?) WHERE  customer_phone = ?  in /home/pallel29/public_html/smileyrating.dk/MysqliDb.php:1986
+Stack trace:
+#0 /home/pallel29/public_html/smileyrating.dk/MysqliDb.php(1574): MysqliDb->_prepareQuery()
+#1 /home/pallel29/public_html/smileyrating.dk/MysqliDb.php(1513): MysqliDb->_buildQuery(NULL, Array)
+#2 /home/pallel29/public_html/smileyrating.dk/MysqliDb.php(806): MysqliDb->_buildInsert('sms_logs', Array, 'INSERT')
+#3 /home/pallel29/public_html/smileyrating.dk/cron1.php(48): MysqliDb->insert('sms_logs', Array)
+#4 {main}
+  thrown in /home/pallel29/public_html/smileyrating.dk/MysqliDb.php on line 1986
+[26-Nov-2019 16:22:01 Europe/Copenhagen] PHP Fatal error:  Uncaught Error: Call to a member function where() on null in /home/pallel29/public_html/smileyrating.dk/cron1.php:25
+Stack trace:
+#0 {main}
+  thrown in /home/pallel29/public_html/smileyrating.dk/cron1.php on line 25
+[26-Nov-2019 16:23:02 Europe/Copenhagen] PHP Fatal error:  Uncaught Error: Call to a member function where() on null in /home/pallel29/public_html/smileyrating.dk/cron1.php:25
+Stack trace:
+#0 {main}
+  thrown in /home/pallel29/public_html/smileyrating.dk/cron1.php on line 25
+[26-Nov-2019 16:24:01 Europe/Copenhagen] PHP Fatal error:  Uncaught Error: Call to a member function where() on null in /home/pallel29/public_html/smileyrating.dk/cron1.php:25
+Stack trace:
+#0 {main}
+  thrown in /home/pallel29/public_html/smileyrating.dk/cron1.php on line 25
+[26-Nov-2019 16:25:02 Europe/Copenhagen] PHP Fatal error:  Uncaught Error: Call to a member function where() on null in /home/pallel29/public_html/smileyrating.dk/cron1.php:25
+Stack trace:
+#0 {main}
+  thrown in /home/pallel29/public_html/smileyrating.dk/cron1.php on line 25
+[26-Nov-2019 16:26:02 Europe/Copenhagen] PHP Fatal error:  Uncaught Error: Call to a member function where() on null in /home/pallel29/public_html/smileyrating.dk/cron1.php:25
+Stack trace:
+#0 {main}
+  thrown in /home/pallel29/public_html/smileyrating.dk/cron1.php on line 25
+[26-Nov-2019 16:27:02 Europe/Copenhagen] PHP Fatal error:  Uncaught Error: Call to a member function where() on null in /home/pallel29/public_html/smileyrating.dk/cron1.php:25
+Stack trace:
+#0 {main}
+  thrown in /home/pallel29/public_html/smileyrating.dk/cron1.php on line 25
+[26-Nov-2019 16:28:02 Europe/Copenhagen] PHP Fatal error:  Uncaught Error: Call to a member function where() on null in /home/pallel29/public_html/smileyrating.dk/cron1.php:25
+Stack trace:
+#0 {main}
+  thrown in /home/pallel29/public_html/smileyrating.dk/cron1.php on line 25
+[26-Nov-2019 16:29:02 Europe/Copenhagen] PHP Fatal error:  Uncaught Error: Call to a member function where() on null in /home/pallel29/public_html/smileyrating.dk/cron1.php:25
+Stack trace:
+#0 {main}
+  thrown in /home/pallel29/public_html/smileyrating.dk/cron1.php on line 25
+[26-Nov-2019 16:30:02 Europe/Copenhagen] PHP Fatal error:  Uncaught Error: Call to a member function where() on null in /home/pallel29/public_html/smileyrating.dk/cron1.php:25
+Stack trace:
+#0 {main}
+  thrown in /home/pallel29/public_html/smileyrating.dk/cron1.php on line 25
+[26-Nov-2019 16:31:01 Europe/Copenhagen] PHP Fatal error:  Uncaught Error: Call to a member function where() on null in /home/pallel29/public_html/smileyrating.dk/cron1.php:25
+Stack trace:
+#0 {main}
+  thrown in /home/pallel29/public_html/smileyrating.dk/cron1.php on line 25
+[26-Nov-2019 16:32:01 Europe/Copenhagen] PHP Fatal error:  Uncaught Error: Call to a member function where() on null in /home/pallel29/public_html/smileyrating.dk/cron1.php:25
+Stack trace:
+#0 {main}
+  thrown in /home/pallel29/public_html/smileyrating.dk/cron1.php on line 25
+[26-Nov-2019 16:33:01 Europe/Copenhagen] PHP Fatal error:  Uncaught Error: Call to a member function where() on null in /home/pallel29/public_html/smileyrating.dk/cron1.php:25
+Stack trace:
+#0 {main}
+  thrown in /home/pallel29/public_html/smileyrating.dk/cron1.php on line 25
+[26-Nov-2019 16:34:02 Europe/Copenhagen] PHP Fatal error:  Uncaught Error: Call to a member function where() on null in /home/pallel29/public_html/smileyrating.dk/cron1.php:25
+Stack trace:
+#0 {main}
+  thrown in /home/pallel29/public_html/smileyrating.dk/cron1.php on line 25
+[26-Nov-2019 16:35:02 Europe/Copenhagen] PHP Fatal error:  Uncaught Error: Call to a member function where() on null in /home/pallel29/public_html/smileyrating.dk/cron1.php:25
+Stack trace:
+#0 {main}
+  thrown in /home/pallel29/public_html/smileyrating.dk/cron1.php on line 25
+[26-Nov-2019 16:36:02 Europe/Copenhagen] PHP Fatal error:  Uncaught Error: Call to a member function where() on null in /home/pallel29/public_html/smileyrating.dk/cron1.php:25
+Stack trace:
+#0 {main}
+  thrown in /home/pallel29/public_html/smileyrating.dk/cron1.php on line 25
+[26-Nov-2019 16:37:01 Europe/Copenhagen] PHP Fatal error:  Uncaught Error: Call to a member function where() on null in /home/pallel29/public_html/smileyrating.dk/cron1.php:25
+Stack trace:
+#0 {main}
+  thrown in /home/pallel29/public_html/smileyrating.dk/cron1.php on line 25
+[26-Nov-2019 16:38:01 Europe/Copenhagen] PHP Fatal error:  Uncaught Error: Call to a member function where() on null in /home/pallel29/public_html/smileyrating.dk/cron1.php:25
+Stack trace:
+#0 {main}
+  thrown in /home/pallel29/public_html/smileyrating.dk/cron1.php on line 25
+[26-Nov-2019 16:39:02 Europe/Copenhagen] PHP Fatal error:  Uncaught Error: Call to a member function where() on null in /home/pallel29/public_html/smileyrating.dk/cron1.php:25
+Stack trace:
+#0 {main}
+  thrown in /home/pallel29/public_html/smileyrating.dk/cron1.php on line 25
+[26-Nov-2019 16:40:02 Europe/Copenhagen] PHP Fatal error:  Uncaught Error: Call to a member function where() on null in /home/pallel29/public_html/smileyrating.dk/cron1.php:25
+Stack trace:
+#0 {main}
+  thrown in /home/pallel29/public_html/smileyrating.dk/cron1.php on line 25
+[26-Nov-2019 16:41:02 Europe/Copenhagen] PHP Fatal error:  Uncaught Error: Call to a member function where() on null in /home/pallel29/public_html/smileyrating.dk/cron1.php:25
+Stack trace:
+#0 {main}
+  thrown in /home/pallel29/public_html/smileyrating.dk/cron1.php on line 25
+[26-Nov-2019 16:42:01 Europe/Copenhagen] PHP Fatal error:  Uncaught Error: Call to a member function where() on null in /home/pallel29/public_html/smileyrating.dk/cron1.php:25
+Stack trace:
+#0 {main}
+  thrown in /home/pallel29/public_html/smileyrating.dk/cron1.php on line 25
+[26-Nov-2019 16:43:02 Europe/Copenhagen] PHP Fatal error:  Uncaught Error: Call to a member function where() on null in /home/pallel29/public_html/smileyrating.dk/cron1.php:25
+Stack trace:
+#0 {main}
+  thrown in /home/pallel29/public_html/smileyrating.dk/cron1.php on line 25
+[26-Nov-2019 16:44:02 Europe/Copenhagen] PHP Fatal error:  Uncaught Error: Call to a member function where() on null in /home/pallel29/public_html/smileyrating.dk/cron1.php:25
+Stack trace:
+#0 {main}
+  thrown in /home/pallel29/public_html/smileyrating.dk/cron1.php on line 25
+[26-Nov-2019 16:45:02 Europe/Copenhagen] PHP Fatal error:  Uncaught Error: Call to a member function where() on null in /home/pallel29/public_html/smileyrating.dk/cron1.php:25
+Stack trace:
+#0 {main}
+  thrown in /home/pallel29/public_html/smileyrating.dk/cron1.php on line 25
+[26-Nov-2019 16:46:02 Europe/Copenhagen] PHP Fatal error:  Uncaught Error: Call to a member function where() on null in /home/pallel29/public_html/smileyrating.dk/cron1.php:25
+Stack trace:
+#0 {main}
+  thrown in /home/pallel29/public_html/smileyrating.dk/cron1.php on line 25
+[26-Nov-2019 16:47:01 Europe/Copenhagen] PHP Fatal error:  Uncaught Error: Call to a member function where() on null in /home/pallel29/public_html/smileyrating.dk/cron1.php:25
+Stack trace:
+#0 {main}
+  thrown in /home/pallel29/public_html/smileyrating.dk/cron1.php on line 25
+[26-Nov-2019 16:48:01 Europe/Copenhagen] PHP Fatal error:  Uncaught Error: Call to a member function where() on null in /home/pallel29/public_html/smileyrating.dk/cron1.php:25
+Stack trace:
+#0 {main}
+  thrown in /home/pallel29/public_html/smileyrating.dk/cron1.php on line 25
+[26-Nov-2019 16:49:02 Europe/Copenhagen] PHP Fatal error:  Uncaught Error: Call to a member function where() on null in /home/pallel29/public_html/smileyrating.dk/cron1.php:25
+Stack trace:
+#0 {main}
+  thrown in /home/pallel29/public_html/smileyrating.dk/cron1.php on line 25
+[26-Nov-2019 16:50:02 Europe/Copenhagen] PHP Fatal error:  Uncaught Error: Call to a member function where() on null in /home/pallel29/public_html/smileyrating.dk/cron1.php:25
+Stack trace:
+#0 {main}
+  thrown in /home/pallel29/public_html/smileyrating.dk/cron1.php on line 25
+[26-Nov-2019 16:51:02 Europe/Copenhagen] PHP Fatal error:  Uncaught Error: Call to a member function where() on null in /home/pallel29/public_html/smileyrating.dk/cron1.php:25
+Stack trace:
+#0 {main}
+  thrown in /home/pallel29/public_html/smileyrating.dk/cron1.php on line 25
+[26-Nov-2019 16:52:01 Europe/Copenhagen] PHP Fatal error:  Uncaught Error: Call to a member function where() on null in /home/pallel29/public_html/smileyrating.dk/cron1.php:25
+Stack trace:
+#0 {main}
+  thrown in /home/pallel29/public_html/smileyrating.dk/cron1.php on line 25
+[26-Nov-2019 16:53:01 Europe/Copenhagen] PHP Fatal error:  Uncaught Error: Call to a member function where() on null in /home/pallel29/public_html/smileyrating.dk/cron1.php:25
+Stack trace:
+#0 {main}
+  thrown in /home/pallel29/public_html/smileyrating.dk/cron1.php on line 25
+[26-Nov-2019 16:54:01 Europe/Copenhagen] PHP Fatal error:  Uncaught Error: Call to a member function where() on null in /home/pallel29/public_html/smileyrating.dk/cron1.php:25
+Stack trace:
+#0 {main}
+  thrown in /home/pallel29/public_html/smileyrating.dk/cron1.php on line 25
+[26-Nov-2019 16:55:01 Europe/Copenhagen] PHP Fatal error:  Uncaught Error: Call to a member function where() on null in /home/pallel29/public_html/smileyrating.dk/cron1.php:25
+Stack trace:
+#0 {main}
+  thrown in /home/pallel29/public_html/smileyrating.dk/cron1.php on line 25
+[26-Nov-2019 16:56:01 Europe/Copenhagen] PHP Fatal error:  Uncaught Error: Call to a member function where() on null in /home/pallel29/public_html/smileyrating.dk/cron1.php:25
+Stack trace:
+#0 {main}
+  thrown in /home/pallel29/public_html/smileyrating.dk/cron1.php on line 25
+[26-Nov-2019 16:57:02 Europe/Copenhagen] PHP Fatal error:  Uncaught Error: Call to a member function where() on null in /home/pallel29/public_html/smileyrating.dk/cron1.php:25
+Stack trace:
+#0 {main}
+  thrown in /home/pallel29/public_html/smileyrating.dk/cron1.php on line 25
+[26-Nov-2019 16:58:01 Europe/Copenhagen] PHP Fatal error:  Uncaught Error: Call to a member function where() on null in /home/pallel29/public_html/smileyrating.dk/cron1.php:25
+Stack trace:
+#0 {main}
+  thrown in /home/pallel29/public_html/smileyrating.dk/cron1.php on line 25
+[26-Nov-2019 16:59:01 Europe/Copenhagen] PHP Fatal error:  Uncaught Error: Call to a member function where() on null in /home/pallel29/public_html/smileyrating.dk/cron1.php:25
+Stack trace:
+#0 {main}
+  thrown in /home/pallel29/public_html/smileyrating.dk/cron1.php on line 25
+[26-Nov-2019 17:00:03 Europe/Copenhagen] PHP Fatal error:  Uncaught Error: Call to a member function where() on null in /home/pallel29/public_html/smileyrating.dk/cron1.php:25
+Stack trace:
+#0 {main}
+  thrown in /home/pallel29/public_html/smileyrating.dk/cron1.php on line 25
+[26-Nov-2019 17:01:01 Europe/Copenhagen] PHP Fatal error:  Uncaught Error: Call to a member function where() on null in /home/pallel29/public_html/smileyrating.dk/cron1.php:25
+Stack trace:
+#0 {main}
+  thrown in /home/pallel29/public_html/smileyrating.dk/cron1.php on line 25
+[26-Nov-2019 17:02:01 Europe/Copenhagen] PHP Fatal error:  Uncaught Error: Call to a member function where() on null in /home/pallel29/public_html/smileyrating.dk/cron1.php:25
+Stack trace:
+#0 {main}
+  thrown in /home/pallel29/public_html/smileyrating.dk/cron1.php on line 25
+[26-Nov-2019 17:03:01 Europe/Copenhagen] PHP Fatal error:  Uncaught Error: Call to a member function where() on null in /home/pallel29/public_html/smileyrating.dk/cron1.php:25
+Stack trace:
+#0 {main}
+  thrown in /home/pallel29/public_html/smileyrating.dk/cron1.php on line 25
+[26-Nov-2019 17:04:02 Europe/Copenhagen] PHP Fatal error:  Uncaught Error: Call to a member function where() on null in /home/pallel29/public_html/smileyrating.dk/cron1.php:25
+Stack trace:
+#0 {main}
+  thrown in /home/pallel29/public_html/smileyrating.dk/cron1.php on line 25
+[26-Nov-2019 17:05:02 Europe/Copenhagen] PHP Fatal error:  Uncaught Error: Call to a member function where() on null in /home/pallel29/public_html/smileyrating.dk/cron1.php:25
+Stack trace:
+#0 {main}
+  thrown in /home/pallel29/public_html/smileyrating.dk/cron1.php on line 25
+[26-Nov-2019 17:06:01 Europe/Copenhagen] PHP Fatal error:  Uncaught Error: Call to a member function where() on null in /home/pallel29/public_html/smileyrating.dk/cron1.php:25
+Stack trace:
+#0 {main}
+  thrown in /home/pallel29/public_html/smileyrating.dk/cron1.php on line 25
+[26-Nov-2019 17:07:01 Europe/Copenhagen] PHP Fatal error:  Uncaught Error: Call to a member function where() on null in /home/pallel29/public_html/smileyrating.dk/cron1.php:25
+Stack trace:
+#0 {main}
+  thrown in /home/pallel29/public_html/smileyrating.dk/cron1.php on line 25
+[26-Nov-2019 17:08:01 Europe/Copenhagen] PHP Fatal error:  Uncaught Error: Call to a member function where() on null in /home/pallel29/public_html/smileyrating.dk/cron1.php:25
+Stack trace:
+#0 {main}
+  thrown in /home/pallel29/public_html/smileyrating.dk/cron1.php on line 25
+[26-Nov-2019 17:09:01 Europe/Copenhagen] PHP Fatal error:  Uncaught Error: Call to a member function where() on null in /home/pallel29/public_html/smileyrating.dk/cron1.php:25
+Stack trace:
+#0 {main}
+  thrown in /home/pallel29/public_html/smileyrating.dk/cron1.php on line 25
+[26-Nov-2019 17:10:01 Europe/Copenhagen] PHP Fatal error:  Uncaught Error: Call to a member function where() on null in /home/pallel29/public_html/smileyrating.dk/cron1.php:25
+Stack trace:
+#0 {main}
+  thrown in /home/pallel29/public_html/smileyrating.dk/cron1.php on line 25
+[26-Nov-2019 17:11:01 Europe/Copenhagen] PHP Fatal error:  Uncaught Error: Call to a member function where() on null in /home/pallel29/public_html/smileyrating.dk/cron1.php:25
+Stack trace:
+#0 {main}
+  thrown in /home/pallel29/public_html/smileyrating.dk/cron1.php on line 25
+[26-Nov-2019 17:12:02 Europe/Copenhagen] PHP Fatal error:  Uncaught Error: Call to a member function where() on null in /home/pallel29/public_html/smileyrating.dk/cron1.php:25
+Stack trace:
+#0 {main}
+  thrown in /home/pallel29/public_html/smileyrating.dk/cron1.php on line 25
+[26-Nov-2019 17:13:02 Europe/Copenhagen] PHP Fatal error:  Uncaught Error: Call to a member function where() on null in /home/pallel29/public_html/smileyrating.dk/cron1.php:25
+Stack trace:
+#0 {main}
+  thrown in /home/pallel29/public_html/smileyrating.dk/cron1.php on line 25
+[26-Nov-2019 17:14:02 Europe/Copenhagen] PHP Fatal error:  Uncaught Error: Call to a member function where() on null in /home/pallel29/public_html/smileyrating.dk/cron1.php:25
+Stack trace:
+#0 {main}
+  thrown in /home/pallel29/public_html/smileyrating.dk/cron1.php on line 25
+[26-Nov-2019 17:15:02 Europe/Copenhagen] PHP Fatal error:  Uncaught Error: Call to a member function where() on null in /home/pallel29/public_html/smileyrating.dk/cron1.php:25
+Stack trace:
+#0 {main}
+  thrown in /home/pallel29/public_html/smileyrating.dk/cron1.php on line 25
+[26-Nov-2019 17:16:02 Europe/Copenhagen] PHP Fatal error:  Uncaught Error: Call to a member function where() on null in /home/pallel29/public_html/smileyrating.dk/cron1.php:25
+Stack trace:
+#0 {main}
+  thrown in /home/pallel29/public_html/smileyrating.dk/cron1.php on line 25
+[26-Nov-2019 17:17:02 Europe/Copenhagen] PHP Fatal error:  Uncaught Error: Call to a member function where() on null in /home/pallel29/public_html/smileyrating.dk/cron1.php:25
+Stack trace:
+#0 {main}
+  thrown in /home/pallel29/public_html/smileyrating.dk/cron1.php on line 25
+[26-Nov-2019 17:18:02 Europe/Copenhagen] PHP Fatal error:  Uncaught Error: Call to a member function where() on null in /home/pallel29/public_html/smileyrating.dk/cron1.php:25
+Stack trace:
+#0 {main}
+  thrown in /home/pallel29/public_html/smileyrating.dk/cron1.php on line 25
+[26-Nov-2019 17:18:07 Europe/Copenhagen] PHP Fatal error:  Uncaught Error: Call to a member function where() on null in /home/pallel29/public_html/smileyrating.dk/cron1.php:25
+Stack trace:
+#0 {main}
+  thrown in /home/pallel29/public_html/smileyrating.dk/cron1.php on line 25
+[26-Nov-2019 17:18:28 Europe/Copenhagen] PHP Fatal error:  Uncaught Error: Call to a member function where() on null in /home/pallel29/public_html/smileyrating.dk/cron1.php:25
+Stack trace:
+#0 {main}
+  thrown in /home/pallel29/public_html/smileyrating.dk/cron1.php on line 25
+[26-Nov-2019 17:19:01 Europe/Copenhagen] PHP Fatal error:  Uncaught Error: Call to a member function where() on null in /home/pallel29/public_html/smileyrating.dk/cron1.php:25
+Stack trace:
+#0 {main}
+  thrown in /home/pallel29/public_html/smileyrating.dk/cron1.php on line 25
+[26-Nov-2019 17:20:44 Europe/Copenhagen] PHP Fatal error:  Uncaught Error: Call to a member function where() on null in /home/pallel29/public_html/smileyrating.dk/cron1.php:25
+Stack trace:
+#0 {main}
+  thrown in /home/pallel29/public_html/smileyrating.dk/cron1.php on line 25
+[26-Nov-2019 17:21:02 Europe/Copenhagen] PHP Fatal error:  Uncaught Error: Call to a member function where() on null in /home/pallel29/public_html/smileyrating.dk/cron1.php:25
+Stack trace:
+#0 {main}
+  thrown in /home/pallel29/public_html/smileyrating.dk/cron1.php on line 25
+[26-Nov-2019 17:21:17 Europe/Copenhagen] PHP Fatal error:  Uncaught Error: Call to a member function where() on null in /home/pallel29/public_html/smileyrating.dk/cron1.php:25
+Stack trace:
+#0 {main}
+  thrown in /home/pallel29/public_html/smileyrating.dk/cron1.php on line 25
+[26-Nov-2019 17:22:01 Europe/Copenhagen] PHP Fatal error:  Uncaught Error: Call to a member function where() on null in /home/pallel29/public_html/smileyrating.dk/cron1.php:25
+Stack trace:
+#0 {main}
+  thrown in /home/pallel29/public_html/smileyrating.dk/cron1.php on line 25
+[26-Nov-2019 17:22:26 Europe/Copenhagen] PHP Fatal error:  Uncaught Error: Call to a member function where() on null in /home/pallel29/public_html/smileyrating.dk/cron1.php:25
+Stack trace:
+#0 {main}
+  thrown in /home/pallel29/public_html/smileyrating.dk/cron1.php on line 25
+[26-Nov-2019 17:23:47 Europe/Copenhagen] PHP Fatal error:  Uncaught Error: Call to a member function where() on null in /home/pallel29/public_html/smileyrating.dk/cron1.php:25
+Stack trace:
+#0 {main}
+  thrown in /home/pallel29/public_html/smileyrating.dk/cron1.php on line 25
+[26-Nov-2019 17:24:01 Europe/Copenhagen] PHP Fatal error:  Uncaught Error: Call to a member function where() on null in /home/pallel29/public_html/smileyrating.dk/cron1.php:25
+Stack trace:
+#0 {main}
+  thrown in /home/pallel29/public_html/smileyrating.dk/cron1.php on line 25
+[26-Nov-2019 17:25:01 Europe/Copenhagen] PHP Fatal error:  Uncaught Error: Call to a member function where() on null in /home/pallel29/public_html/smileyrating.dk/cron1.php:25
+Stack trace:
+#0 {main}
+  thrown in /home/pallel29/public_html/smileyrating.dk/cron1.php on line 25
+[26-Nov-2019 17:25:40 Europe/Copenhagen] PHP Fatal error:  Uncaught Error: Call to a member function where() on null in /home/pallel29/public_html/smileyrating.dk/cron1.php:25
+Stack trace:
+#0 {main}
+  thrown in /home/pallel29/public_html/smileyrating.dk/cron1.php on line 25
+[26-Nov-2019 17:26:02 Europe/Copenhagen] PHP Fatal error:  Uncaught Error: Call to a member function where() on null in /home/pallel29/public_html/smileyrating.dk/cron1.php:25
+Stack trace:
+#0 {main}
+  thrown in /home/pallel29/public_html/smileyrating.dk/cron1.php on line 25
+[26-Nov-2019 17:27:02 Europe/Copenhagen] PHP Fatal error:  Uncaught Error: Call to a member function where() on null in /home/pallel29/public_html/smileyrating.dk/cron1.php:25
+Stack trace:
+#0 {main}
+  thrown in /home/pallel29/public_html/smileyrating.dk/cron1.php on line 25
+[26-Nov-2019 17:28:02 Europe/Copenhagen] PHP Fatal error:  Uncaught Error: Call to a member function where() on null in /home/pallel29/public_html/smileyrating.dk/cron1.php:25
+Stack trace:
+#0 {main}
+  thrown in /home/pallel29/public_html/smileyrating.dk/cron1.php on line 25
+[26-Nov-2019 17:29:01 Europe/Copenhagen] PHP Fatal error:  Uncaught Error: Call to a member function where() on null in /home/pallel29/public_html/smileyrating.dk/cron1.php:25
+Stack trace:
+#0 {main}
+  thrown in /home/pallel29/public_html/smileyrating.dk/cron1.php on line 25

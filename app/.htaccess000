@@ -1,0 +1,4 @@
+AuthType Basic
+AuthName "app"
+AuthUserFile "/home/pallel29/.htpasswds/public_html/smileyrating.dk/app/passwd"
+require valid-user
